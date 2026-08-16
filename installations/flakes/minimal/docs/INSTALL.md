@@ -14,7 +14,7 @@ drive) and make and enter a directory, typically called `finix`, then copy the
 needed files from this repository with
 
 ```bash
-nix --enable-experimental-features 'nix-command flakes' flake init -t github:finix-community/examples#installation-minimal
+nix --extra-experimental-features 'nix-command flakes' flake init -t github:finix-community/examples#installation-minimal
 ```
 
 where `<path>` is your desired file directory name, can leave blank for the
